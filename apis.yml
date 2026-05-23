@@ -1,0 +1,232 @@
+aid: buildium
+name: Buildium
+url: https://raw.githubusercontent.com/api-evangelist/buildium/refs/heads/main/apis.yml
+description: >-
+  Buildium, part of RealPage, is a cloud property-management platform aimed at
+  small and mid-sized residential, association, and community-association
+  property managers. The platform covers accounting, leasing, applicant and
+  tenant management, rent collection, maintenance, communications, owner and
+  resident portals, and association management. Buildium publishes a Public API
+  used by certified partners and customers for property, lease, tenant, owner,
+  vendor, rental application, financial, and webhook integration with the
+  Buildium platform.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Property Management
+  - Residential
+  - Community Associations
+  - Accounting
+  - PropTech
+  - SMB
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: buildium:public-api
+    name: Buildium Public API
+    description: >-
+      Buildium's REST Public API used by customers and certified partners to
+      read and write property, lease, tenant, owner, vendor, rental
+      application, financial, and association data inside the Buildium
+      platform. Authentication is via per-customer API key credentials issued
+      from the Buildium account.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - REST
+      - Partner API
+      - Property Management
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:properties
+    name: Buildium Properties API
+    description: >-
+      Manages rental properties, units, association properties, and property
+      metadata for a Buildium account.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Properties
+      - Units
+      - Associations
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:leases
+    name: Buildium Leases API
+    description: >-
+      Manages leases including lease terms, renewals, charges, transactions,
+      and recurring transactions.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Leases
+      - Renewals
+      - Transactions
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:tenants
+    name: Buildium Tenants API
+    description: >-
+      Manages tenant records, contact information, and tenant-level
+      communications inside Buildium.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Tenants
+      - Residents
+      - Contacts
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:owners
+    name: Buildium Rental Owners API
+    description: >-
+      Manages rental owner records, ownership accounts, and owner-level
+      communications.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Rental Owners
+      - Ownership
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:vendors
+    name: Buildium Vendors API
+    description: >-
+      Manages vendor records, vendor categories, insurance, and 1099
+      reporting metadata.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Vendors
+      - 1099
+      - Insurance
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:applicants
+    name: Buildium Applicants & Rental Applications API
+    description: >-
+      Manages prospects, rental applications, application charges, and the
+      application lifecycle before lease execution.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Applicants
+      - Rental Applications
+      - Leasing
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:accounting
+    name: Buildium Accounting & General Ledger API
+    description: >-
+      Manages chart of accounts, journal entries, bills, bill payments, bank
+      accounts, and general-ledger transactions for property accounting.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Accounting
+      - General Ledger
+      - Bills
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:maintenance
+    name: Buildium Tasks & Work Orders API
+    description: >-
+      Manages maintenance tasks, work orders, contact requests, and the
+      maintenance workflow tied to properties and units.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Tasks
+      - Work Orders
+      - Maintenance
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:communications
+    name: Buildium Communications API
+    description: >-
+      Manages emails, notes, and other communications stored against
+      properties, leases, tenants, owners, and vendors.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Communications
+      - Email
+      - Notes
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:associations
+    name: Buildium Association Management API
+    description: >-
+      Endpoints supporting community association management workflows,
+      including association owners, units, ownership accounts, and association
+      transactions.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Associations
+      - HOA
+      - Community Management
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:files
+    name: Buildium Files API
+    description: >-
+      Manages files and documents attached to properties, leases, owners,
+      tenants, vendors, and other Buildium entities.
+    humanURL: https://www.buildium.com/developers
+    baseURL: https://api.buildium.com
+    tags:
+      - Files
+      - Documents
+      - Storage
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+  - aid: buildium:webhooks
+    name: Buildium Webhooks
+    description: >-
+      Outbound webhook events emitted by Buildium for changes to entities such
+      as leases, tenants, work orders, and financial transactions, delivered
+      to customer-configured HTTPS endpoints.
+    humanURL: https://www.buildium.com/developers
+    baseURL: customer-configured
+    tags:
+      - Webhooks
+      - Events
+      - Callbacks
+    properties:
+      - type: Documentation
+        url: https://www.buildium.com/developers
+common:
+  - type: Website
+    url: https://www.buildium.com
+  - type: Developer
+    url: https://www.buildium.com/developers
+  - type: Help
+    url: https://help.buildium.com
+  - type: Parent
+    url: https://www.realpage.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/buildium/
+integrations:
+  - name: RealPage
+  - name: TransUnion SmartMove
+  - name: HappyCo
+  - name: PayNearMe
+  - name: MSI Screening
+  - name: RevSpring
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
