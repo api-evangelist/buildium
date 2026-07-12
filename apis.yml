@@ -210,6 +210,8 @@ apis:
       - type: Documentation
         url: https://www.buildium.com/developers
 common:
+  - type: DomainSecurity
+    url: security/buildium-domain-security.yml
   - type: Website
     url: https://www.buildium.com
   - type: Developer
@@ -220,6 +222,8 @@ common:
     url: https://www.realpage.com
   - type: LinkedIn
     url: https://www.linkedin.com/company/buildium/
+  - url: https://www.buildium.com/blog/
+    type: Blog
 integrations:
   - name: RealPage
   - name: TransUnion SmartMove
