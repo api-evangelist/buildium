@@ -76,6 +76,10 @@ apis:
     tags:
       - Leases
       - Renewals
+      - Transaction
+    tags_raw:
+      - Leases
+      - Renewals
       - Transactions
     properties:
       - type: Documentation
@@ -157,6 +161,10 @@ apis:
     humanURL: https://www.buildium.com/developers
     baseURL: https://api.buildium.com
     tags:
+      - Task
+      - Work Orders
+      - Maintenance
+    tags_raw:
       - Tasks
       - Work Orders
       - Maintenance
@@ -200,6 +208,10 @@ apis:
     humanURL: https://www.buildium.com/developers
     baseURL: https://api.buildium.com
     tags:
+      - File
+      - Documents
+      - Storage
+    tags_raw:
       - Files
       - Documents
       - Storage
@@ -215,6 +227,10 @@ apis:
     humanURL: https://www.buildium.com/developers
     baseURL: customer-configured
     tags:
+      - Webhook
+      - Event
+      - Callbacks
+    tags_raw:
       - Webhooks
       - Events
       - Callbacks
